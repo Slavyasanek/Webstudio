@@ -1,0 +1,13 @@
+.logo--append {
+  color: $styleColor;
+}
+
+.header__logo {
+  @extend %logo;
+  @include LogoColor($secFontColor);
+}
+
+.footer__logo {
+  @extend %logo;
+  @include LogoColor($white);
+}

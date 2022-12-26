@@ -1,0 +1,21 @@
+@mixin LogoColor($color) {
+    color: $color;
+}
+
+@mixin SocialLink($color, $bcg) {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: $bcg;
+    color: $color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@mixin SectionPadding($padding) {
+    padding-top: $padding;
+    padding-bottom: $padding;
+}
