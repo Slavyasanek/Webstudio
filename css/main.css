@@ -336,6 +336,9 @@ img {
 .menu__item:not(:last-child) {
   margin-bottom: 32px;
 }
+.menu__item--selected {
+  color: #2196f3;
+}
 
 .menu__contacts {
   margin-top: 306px;
@@ -382,7 +385,8 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .menu__container, .menu__button {
+  .menu__container,
+.menu__button {
     display: none;
   }
 }
