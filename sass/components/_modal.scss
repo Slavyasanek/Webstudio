@@ -36,7 +36,6 @@
   position: relative;
   transform: scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  overflow-y: scroll;
   &__form {
     padding: 40px;
   }
@@ -200,6 +199,9 @@
   .backdrop {
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .modal {
+    overflow-y: scroll;
   }
 }
 
