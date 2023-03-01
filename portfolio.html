@@ -54,14 +54,14 @@
             <div class="wrapper">
                 <h2 class="hidden-title">Портфоліо</h2>
                 <ul class="filter">
-                  <li class="filter__item"><button type="button" class="filter__button">Усі</button></li>
-                  <li class="filter__item"><button type="button" class="filter__button">Веб-сайти</button></li>
-                  <li class="filter__item"><button type="button" class="filter__button">Додатки</button></li>
-                  <li class="filter__item"><button type="button" class="filter__button">Дизайн</button></li>
-                  <li class="filter__item"><button type="button" class="filter__button">Маркетинг</button></li>
+                  <li class="filter__item"><button type="button" data-filter="all" class="filter__button">Усі</button></li>
+                  <li class="filter__item"><button type="button" data-filter="web" class="filter__button">Веб-сайти</button></li>
+                  <li class="filter__item"><button type="button" data-filter="app" class="filter__button">Додатки</button></li>
+                  <li class="filter__item"><button type="button" data-filter="design" class="filter__button">Дизайн</button></li>
+                  <li class="filter__item"><button type="button" data-filter="marketing" class="filter__button">Маркетинг</button></li>
                 </ul>
                 <ul class="projects">
-                  <li class="projects__card">
+                  <li class="projects__card f_web">
                     <div class="projects__image">
                       <img 
                       srcset="./images/project1.jpg 1x, ./images/project1@2x.jpg 2x"
@@ -73,7 +73,7 @@
                       <p class="projects__filter">Веб-сайт</p>
                     </div>
                   </li>
-                  <li class="projects__card">
+                  <li class="projects__card f_design">
                     <div class="projects__image">
                       <img
                       srcset="./images/project2.jpg 1x, ./images/project2@2x.jpg 2x"
@@ -87,7 +87,7 @@
                       <p class="projects__filter">Дизайн</p>
                     </div>
                   </li>
-                  <li class="projects__card">
+                  <li class="projects__card f_app">
                     <div class="projects__image">
                       <img 
                       srcset="./images/project3.jpg 1x, ./images/project3@2x.jpg 2x"
@@ -99,7 +99,7 @@
                       <p class="projects__filter">Додаток</p>
                     </div>
                   </li>
-                  <li class="projects__card">
+                  <li class="projects__card f_marketing">
                     <div class="projects__image">
                       <img 
                       srcset="./images/project4.jpg 1x, ./images/project4@2x.jpg 2x"
@@ -111,7 +111,7 @@
                       <p class="projects__filter">Маркетинг</p>
                     </div>
                   </li>
-                  <li class="projects__card">
+                  <li class="projects__card f_app">
                     <div class="projects__image">
                       <img 
                       srcset="./images/project5.jpg 1x, ./images/project5@2x.jpg 2x"
@@ -123,7 +123,7 @@
                       <p class="projects__filter">Додаток</p>
                     </div>
                   </li>
-                  <li class="projects__card">
+                  <li class="projects__card f_web">
                     <div class="projects__image">     
                       <img 
                       srcset="./images/project6.jpg 1x, ./images/project6@2x.jpg 2x"
@@ -135,7 +135,7 @@
                       <p class="projects__filter">Веб-сайт</p>
                     </div>
                   </li>
-                  <li class="projects__card">
+                  <li class="projects__card f_design">
                   <div class="projects__image">
                     <img 
                     srcset="./images/project7.jpg 1x, ./images/project7@2x.jpg 2x"
@@ -147,7 +147,7 @@
                       <p class="projects__filter">Дизайн</p>
                     </div>
                   </li>
-                  <li class="projects__card">
+                  <li class="projects__card f_marketing">
                     <div class="projects__image">
                       <img 
                       srcset="./images/project8.jpg 1x, ./images/project8@2x.jpg 2x"
@@ -159,7 +159,7 @@
                       <p class="projects__filter">Маркетинг</p>
                     </div>
                   </li>
-                  <li class="projects__card">
+                  <li class="projects__card f_app">
                     <div class="projects__image">
                       <img 
                       srcset="./images/project9.jpg 1x, ./images/project9@2x.jpg 2x"
@@ -268,5 +268,6 @@
       </div>
     <script src="./js/modal.js"></script>
     <script src="./js/mobile-menu.js"></script> 
+    <script src="./js/filter-portfolio.js"></script>
   </body>
 </html>
